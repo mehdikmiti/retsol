@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>RETSOL</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css?n=3" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: UpConstruction - v1.3.0
+  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style>
+    /* Styling for the active navigation element */
+    .active {
+      font-weight: bold;
+      /* Example styling */
+    }
+  </style>
+
+  <!-- jquery cdn  -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <style>
+    .info-bar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 40px;
+      background-color: white;
+      z-index: 1000;
+      transition: top 0.3s;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header {
+      position: fixed;
+      top: 40px; /* Adjust based on the height of the info bar */
+      width: 100%;
+      background-color: #343a40;
+      z-index: 999;
+      opacity: 0.9;
+      transition: top 0.3s;
+    }
+
+    .hide-info-bar {
+      top: -40px; /* Adjust based on the height of the info bar */
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+
+  <div class="info-bar" style="background-color:aliceblue;">
+    <div class="mx-2">
+      <span class="mx-2"><i class="fa-solid fa-phone"></i> +212 522 766 118</span>
+      <span class="mx-2">|</span>
+      <span class="mx-2"><i class="fa-solid fa-envelope"></i> retsol.sarl@gmail.com</span>
+    </div>
+  </div>
+
+  <header id="header" class="header d-flex align-items-center bg-dark"
+    style="position: fixed;display: block;width: 100%; opacity: 0.9;">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="#hero" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <!-- <h1>RETSOL<span>.</span></h1> -->
+        <h1>RETSOL</h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero" class="active">Accueil</a></li>
+          <li><a href="#about">À PROPOS</a></li>
+          <li><a href="#services">Services</a></li>
+          <!-- <li><a href="#projects">Projets</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Bienvenue à <span>RETSOL</span></h2>
+            <p data-aos="fade-up">RETSOL est spécialisée dans les solutions de revêtement de sol, offrant des produits
+              de haute qualité et des services personnalisés pour les résidences, les commerces et les installations
+              industrielles. Notre expertise et notre engagement envers la durabilité garantissent des résultats
+              durables et esthétiques.</p>
+            <!-- <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/hero-carousel-1.jpg)">
+      </div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-2.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-3.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-4.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/hero-carousel-5.jpg)"></div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Constructions Section ======= -->
+    <section id="about" class="constructions">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>À propos</h2>
+          <!-- <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem
+            dolore earum</p> -->
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-1.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Notre Mission</h4>
+                    <p>Chez RETSOL, nous nous engageons à offrir des solutions de revêtement de sol de la plus haute
+                      qualité, adaptées aux besoins uniques de chaque client. Notre mission est de transformer vos
+                      espaces avec des matériaux durables et esthétiquement plaisants.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-2.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Nos Services</h4>
+                    <p>Nous proposons une gamme complète de revêtements de sol, incluant le bois, le vinyle, le
+                      carrelage, et la moquette. Que ce soit pour des résidences privées, des locaux commerciaux ou des
+                      installations industrielles, nos solutions allient fonctionnalité et design.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-3.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Notre Expertise</h4>
+                    <p>Forts de plusieurs années d'expérience, nous avons développé une expertise reconnue dans le
+                      domaine du revêtement de sol. Nos équipes qualifiées assurent une installation précise et
+                      professionnelle, respectant les normes les plus strictes de qualité et de sécurité.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/constructions-4.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Engagement envers la Durabilité</h4>
+                    <p>Nous nous engageons pleinement en faveur de la durabilité et de l'écoresponsabilité. En
+                      privilégiant des matériaux respectueux de l'environnement et des pratiques durables, nous
+                      préservons notre planète tout en garantissant à nos clients des produits fiables et durables.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+
+
+        </div>
+
+      </div>
+    </section><!-- End Constructions Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Services</h2>
+          <!-- <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos
+            quam</p> -->
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-border-all"></i>
+              </div>
+              <h3>Revêtements de Sol</h3>
+              <p>Chez RETSOL, nous proposons une vaste gamme de revêtements de sol, incluant le bois, le vinyle, le
+                carrelage et la moquette. Nos experts vous conseillent et assurent une installation professionnelle pour
+                des résultats durables et esthétiques.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-rug"></i>
+              </div>
+              <h3>Installation de Moquettes et Tapis</h3>
+              <p>Nous offrons une installation professionnelle de moquettes et tapis, apportant confort et style à vos
+                espaces. Nos experts garantissent une pose précise et durable, adaptée à vos besoins et à votre
+                décoration.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-wrench"></i>
+              </div>
+              <h3>Rénovation et Entretien de Sols</h3>
+              <p>Nous proposons des services de rénovation et d'entretien de sols, incluant ponçage, vernissage et
+                réparations. Nos experts redonnent vie à vos sols tout en assurant leur durabilité et leur beauté.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <h3>Conseil et Accompagnement Personnalisé</h3>
+              <p>Nous offrons des conseils sur mesure et un accompagnement personnalisé pour vous aider à choisir les
+                revêtements de sol parfaits. Nos experts vous guident à chaque étape, garantissant des solutions
+                adaptées à vos besoins et à votre style.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Get Started Section ======= -->
+    <section id="contact" class="get-started">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact</h2>
+          <!-- <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos
+            quam</p> -->
+        </div>
+
+        <div class="row justify-content-between gy-4">
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+            <div class="content">
+              <h3>Contactez-nous</h3>
+              <p>Que vous ayez des questions sur nos services, besoin d'un devis personnalisé ou simplement envie de
+                discuter de votre projet, n'hésitez pas à nous contacter. Notre équipe est là pour vous aider et
+                répondre à toutes vos demandes. Remplissez ce formulaire ou appelez-nous directement. Nous avons hâte de
+                collaborer avec vous pour concrétiser votre vision.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="fade">
+            <form action="forms/quote.php" method="post" class="php-email-form">
+              <h3>Remplissez le formulaire ci-dessous</h3>
+              <div class="row gy-3">
+
+                <div class="col-md-12">
+                  <input type="text" name="name" class="form-control" placeholder="Nom" required>
+                </div>
+
+                <div class="col-md-12 ">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="phone" placeholder="Téléphone" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+
+                  <button type="submit">Envoyer</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Quote Form -->
+
+        </div>
+
+      </div>
+    </section><!-- End Get Started Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>RETSOL</h3>
+              <p>RETSOL est spécialisée dans les solutions de revêtement de sol, offrant des produits de haute qualité et des services personnalisés pour les résidences, les commerces et les installations industrielles. Notre expertise et notre engagement envers la durabilité garantissent des résultats durables et esthétiques.</p>
+            </div>
+          </div><!-- End footer info column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Liens utiles</h4>
+            <ul>
+              <li><a href="#hero" class="active">Accueil</a></li>
+              <li><a href="#about" class="active">À PROPOS</a></li>
+              <li><a href="#services" class="active">Services</a></li>
+              <li><a href="#contact" class="active">Contact</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+
+           <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h4>Contact</h4>
+              <p>
+                Lot Qods II,<br>
+                Bd Imam A Lait Ibnou Saad,<br>
+                Magasin N° 64, 1er étage,<br>
+                Bernoussi, Casablanca.<br><br>
+                <strong>Phone:</strong> +212 522 766 118<br>
+                <strong>Email:</strong> retsol.sarl@gmail.com<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>RETSOL</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
+            href="https://themewagon.com">ThemeWagon</a> -->
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+
+  <!-- <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a> -->
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js?n=6"></script>
+
+  <script>
+    $(document).ready(function () {
+      // Get all links inside the navbar
+      var links = $('#navbar ul li a');
+
+      // Function to update color based on active link
+      // function updateColor() {
+      //   // Check if the first link has class "active"
+      //   if (links.eq(0).hasClass('active')) {
+      //     // Convert all links to white
+      //     links.css('color', 'white');
+      //   } else {
+      //     // Convert all links to black
+      //     links.css('color', 'black');
+      //   }
+      // }
+
+      // Add click event listener to each navbar element
+      links.on('click', function (event) {
+        // Remove "active" class from all links
+        links.removeClass('active');
+        // Add "active" class to the clicked link
+        $(this).addClass('active');
+        // Update colors based on active link
+        // updateColor();
+      });
+
+      // Initial color update on page load
+      // updateColor();
+
+      // Get all section elements
+      var sections = $('section');
+
+      // Function to update active navigation element based on scroll position
+      function updateActiveNav() {
+        var scrollPosition = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        var documentHeight = $(document).height();
+
+        // Remove active class from all navigation links
+        $('#navbar a').removeClass('active');
+
+        // Loop through each section
+        sections.each(function () {
+          var sectionTop = $(this).offset().top;
+          var sectionHeight = $(this).outerHeight();
+
+          // Check if the current scroll position is within the section
+          if (scrollPosition >= sectionTop && scrollPosition < (sectionTop + sectionHeight)) {
+            var navLink = $('a[href="#' + $(this).attr('id') + '"]');
+            // Add active class to the corresponding navigation link
+            navLink.addClass('active');
+          }
+        });
+
+        // Set the first navigation link as active when scrolling up to the top
+        if (scrollPosition === 0) {
+          $('#navbar a:first').addClass('active');
+        }
+
+        // Set the last navigation link as active when scrolling to the last section
+        if (scrollPosition + windowHeight >= documentHeight - 1) {
+          $('#navbar li:last-child a').addClass('active');
+        }
+
+        // updateColor();
+      }
+
+      // Add scroll event listener to update active navigation element
+      $(window).on('scroll', updateActiveNav);
+
+      // Update active navigation element on page load
+      updateActiveNav();
+
+      // Smooth scrolling for navigation links
+      $('#navbar a').on('click', function (event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        var target = $(this.hash); // Get the target section
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top // Smoothly scroll to the target section
+          }, 100, function () {
+            // Update active navigation element after smooth scrolling
+            updateActiveNav();
+          });
+        }
+      });
+    });
+  </script>
+
+<script>
+  window.addEventListener('scroll', function() {
+    const infoBar = document.querySelector('.info-bar');
+    const header = document.querySelector('.header');
+    if (window.scrollY > 50) {
+      infoBar.classList.add('hide-info-bar');
+      header.style.top = '0';
+    } else {
+      infoBar.classList.remove('hide-info-bar');
+      header.style.top = '40px'; // Adjust based on the height of the info bar
+    }
+  });
+</script>
+
+</body>
+
+</html>
